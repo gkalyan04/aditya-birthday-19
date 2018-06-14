@@ -1,0 +1,427 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Aditya's Birthday</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- bootstrap-css -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!--// bootstrap-css -->
+<!-- css -->
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<!--// css -->
+<!-- font-awesome icons -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome icons -->
+<!-- gallery -->
+<link rel="stylesheet" href="css/lightbox.css">
+<!-- //gallery -->
+<!-- font -->
+<link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i" rel="stylesheet">
+<!-- //font -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script> 
+
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
+</head>
+<body>
+	<!-- w3-banner -->
+	<div class="w3-banner jarallax">
+		<div class="wthree-different-dot">
+			<div class="w3layouts-header-top">
+				<div class="container">
+					<div class="w3-header-top-grids">
+						<div class="w3-header-top-left">
+							<p><i class="fa fa-volume-control-phone" aria-hidden="true"></i> +91 9999056738</p>
+						</div>
+						<div class="w3-header-top-right">
+							<div class="agileinfo-social-grids">
+								<ul>
+									<li><a href="https://www.facebook.com/profile.php?id=100003034302098" target="_blank"><i class="fa fa-facebook"></i></a></li>
+									<li><p>" "</p></li>
+									<li><a href="https://www.instagram.com/adityar1599/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+									<li><p>" "</p></li>
+									<li><a href="https://www.quora.com/profile/Aditya-Ramachandran-5" target="_blank"><i class="fa fa-quora"></i></a></li>
+									
+								</ul>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<div class="head">
+				<div class="container">
+					<div class="navbar-top">
+							<!-- Brand and toggle get grouped for better mobile display -->
+							<div class="navbar-header">
+							  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							  </button>
+								 <div class="navbar-brand logo ">
+									<h1><a href="index.html"><span>A</span>ditya</a></h1>
+								</div>
+
+							</div>
+
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							 <ul class="nav navbar-nav link-effect-4">
+								<li class="active first-list"><a href="index.html">Home</a></li>
+								<li><a href="#indro" class="scroll">Introduction</a></li>
+								<li><a href="#about" class="scroll">About</a></li>
+								<li><a href="#gallery" class="scroll">Gallery</a></li>
+								
+							  </ul>
+							</div><!-- /.navbar-collapse -->
+						</div>
+				</div>
+			</div>
+			<!-- banner -->
+			<div class="banner">
+				<div class="container">
+					<div class="slider">
+						<div class="w3ls-icon"><i class="fa fa-birthday-cake" aria-hidden="true"></i></div>
+						<div class="border"></div>
+						<script src="js/responsiveslides.min.js"></script>
+						<script>
+								// You can also use "$(window).load(function() {"
+								$(function () {
+								// Slideshow 4
+									$("#slider3").responsiveSlides({
+										auto: true,
+										pager: true,
+										nav: true,
+										speed: 500,
+										namespace: "callbacks",
+										before: function () {
+											$('.events').append("<li>before event fired.</li>");
+										},
+										after: function () {
+											$('.events').append("<li>after event fired.</li>");
+										}
+									 });				
+								});
+						</script>
+						<div  id="top" class="callbacks_container-wrap">
+							<ul class="rslides" id="slider3">
+								<li>
+									<div class="slider-info">
+										<h3>Happy Birthday !</h3>
+										<p>19</p>
+										<div class="more-button">
+											<a href="#" data-toggle="modal" data-target="#myModal">Read More</a>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="slider-info">
+										<h3>Aditya Ramachandran</h3>
+										<p></p>
+										<div class="more-button">
+											<a href="#" data-toggle="modal" data-target="#myModal">Read More</a>
+										</div>
+									</div>
+								</li>
+								
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- //banner -->
+		</div>
+	</div>
+	<!-- //w3-banner -->
+	<!-- modal -->
+	<div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header"> 
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+						<h4 class="modal-title"><span>A</span>ditya</h4>
+					</div> 
+					<div class="modal-body">
+					<div class="agileits-w3layouts-info">
+						<img src="images/x.jpg" alt="" />
+						<p>He is just an awesome guy. Nothing to be said.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //modal -->
+	<!-- banner-bottom -->
+	<div class="banner-bottom">
+		<div class="container">
+			<div class="banner-bottom-grids">
+				<div class="col-md-6 banner-bottom-left">
+					<div class="left-border">
+						<div class="left-border-info">
+							<h4>Friendship is the source of the greatest pleasures, and without friends even the most agreeable pursuits become tedious.There are no strangers here; Only friends you haven't yet met.</h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 banner-bottom-left banner-bottom-right">
+					<div class="left-border">
+						<div class="left-border-info right-border-info">
+							<h4>I define friendship as a bond that transcends all barriers. When you are ready to expect anything and everything from friends, good, bad or ugly... that's what I call true friendship</h4>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner-bottom -->
+	<!-- introduction -->
+	<div class="introduction" id="indro">
+		<div class="container">
+			<div class="w3l-heading">
+				<h2>Introduction</h2>
+				<div class="w3ls-border"> </div>
+			</div>
+			<div class="introduction-info">
+				<div class="videoWrapper">
+				    <iframe width="560" height="349" src="https://www.youtube.com/embed/3vxfWoprX7M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			    </div>
+
+			</div>
+		</div>
+	</div>
+	<!-- //introduction -->
+	<!-- about -->
+	<div class="about" id="about">
+		<div class="container">
+			<div class="w3l-heading about-heading">
+				<h3>About Aditya Ramachandran</h3>
+				<div class="w3ls-border about-border"> </div>
+			</div>
+			<div class="agileits-about-grids">
+				<div class="about-grids">
+					<div class="col-md-6 about-grid">
+						<div class="col-xs-3 about-grid-left">
+							<span class="glyphicon glyphicon-user effect-1" aria-hidden="true"></span>
+						</div>
+						<div class="col-xs-9 about-grid-right">
+							<h4>Smart</h4>
+					
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-6 about-grid">
+						<div class="col-xs-3 about-grid-left">
+							<span class="glyphicon glyphicon-user effect-1" aria-hidden="true"></span>
+						</div>
+						<div class="col-xs-9 about-grid-right">
+							<h4>Confident</h4>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="about-grids1">
+					<div class="col-md-6 about-grid">
+						<div class="col-xs-3 about-grid-left">
+							<span class="glyphicon glyphicon-user effect-1" aria-hidden="true"></span>
+						</div>
+						<div class="col-xs-9 about-grid-right">
+							<h4>Funny</h4>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-6 about-grid">
+						<div class="col-xs-3 about-grid-left">
+							<span class="glyphicon glyphicon-user effect-1" aria-hidden="true"></span>
+						</div>
+						<div class="col-xs-9 about-grid-right">
+							<h4>Optimistic</h4>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //about -->
+	
+	<!-- gallery -->
+	<div class="gallery" id="gallery">
+		<div class="container">
+			<div class="w3l-heading">
+				<h3>Gallery</h3>
+				<div class="w3ls-border"> </div>
+			</div>
+		</div>
+		<div class="gallery-grids">
+				<div class="gallery-top-grids">
+					<div class="col-sm-3 gallery-grids-left">
+						<div class="gallery-grid">
+							<a class="example-image-link" href="images/g1.jpg" data-lightbox="example-set" >
+								<img src="images/g1.jpg" alt="" />
+								
+							</a>
+						</div>
+					</div>
+					<div class="col-sm-3 gallery-grids-left">
+						<div class="gallery-grid">
+							<a class="example-image-link" href="images/g2.jpg" data-lightbox="example-set" ">
+								<img src="images/g2.jpg" alt="" />
+								
+							</a>
+						</div>
+					</div>
+					<div class="col-sm-3 gallery-grids-left">
+						<div class="gallery-grid">
+							<a class="example-image-link" href="images/g3.jpg" data-lightbox="example-set" >
+								<img src="images/g3.jpg" alt="" />
+							
+							</a>
+						</div>
+					</div>
+					<div class="col-sm-3 gallery-grids-left">
+						<div class="gallery-grid">
+							<a class="example-image-link" href="images/g4.jpg" data-lightbox="example-set" >
+								<img src="images/g4.jpg" alt="" />
+								
+							</a>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="gallery-top-grids">
+					<div class="col-sm-3 gallery-grids-left">
+						<div class="gallery-grid">
+							<a class="example-image-link" href="images/g5.jpg" data-lightbox="example-set" >
+								<img src="images/g5.jpg" alt="" />
+								
+							</a>
+						</div>
+					</div>
+					<div class="col-sm-3 gallery-grids-left">
+						<div class="gallery-grid">
+							<a class="example-image-link" href="images/g6.jpg" data-lightbox="example-set" >
+								<img src="images/g6.jpg" alt="" />
+								
+							</a>
+						</div>
+					</div>
+					<div class="col-sm-3 gallery-grids-left">
+						<div class="gallery-grid">
+							<a class="example-image-link" href="images/g7.jpg" data-lightbox="example-set" >
+								<img src="images/g7.jpg" alt="" />
+								
+							</a>
+						</div>
+					</div>
+					<div class="col-sm-3 gallery-grids-left">
+						<div class="gallery-grid">
+							<a class="example-image-link" href="images/g8.jpg" data-lightbox="example-set" >
+								<img src="images/g8.jpg" alt="" />
+								
+							</a>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="gallery-top-grids">
+					<div class="col-sm-3 gallery-grids-left">
+						<div class="gallery-grid">
+							<a class="example-image-link" href="images/g9.jpg" data-lightbox="example-set" >
+								<img src="images/g9.jpg" alt="" />
+								
+							</a>
+						</div>
+					</div>
+					<div class="col-sm-3 gallery-grids-left">
+						<div class="gallery-grid">
+							<a class="example-image-link" href="images/g10.jpg" data-lightbox="example-set" >
+								<img src="images/g10.jpg" alt="" />
+								
+							</a>
+						</div>
+					</div>
+					<div class="col-sm-3 gallery-grids-left">
+						<div class="gallery-grid">
+							<a class="example-image-link" href="images/g11.jpg" data-lightbox="example-set" >
+								<img src="images/g11.jpg" alt="" />
+								
+							</a>
+						</div>
+					</div>
+					<div class="col-sm-3 gallery-grids-left">
+						<div class="gallery-grid">
+							<a class="example-image-link" href="images/g12.jpg" data-lightbox="example-set" >
+								<img src="images/g12.jpg" alt="" />
+								
+							</a>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+				<script src="js/lightbox-plus-jquery.min.js"> </script>
+		</div>
+	</div>
+	<!-- //gallery -->
+	
+
+	<!-- footer -->
+	<footer>
+		<div class="copyright">
+			<div class="container">
+				<p> Designed by Gandhapu Kalyan with <i class="fa fa-heart"></i></a></p>
+			</div>
+		</div>
+	</footer>
+	<!-- //footer -->
+	<script src="js/jarallax.js"></script>
+	<script src="js/SmoothScroll.min.js"></script>
+	<script type="text/javascript">
+		/* init Jarallax */
+		$('.jarallax').jarallax({
+			speed: 0.5,
+			imgWidth: 1366,
+			imgHeight: 768
+		})
+	</script>
+	<script src="js/responsiveslides.min.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+	<!-- //here ends scrolling icon -->
+</body>	
+</html>
